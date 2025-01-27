@@ -4,7 +4,6 @@ public class WatADriver extends Robot{
 
     Scanner keyboard;
 
-    /** default constructor **/
     public WatADriver() {
         keyboard = new Scanner(System.in);
     }
@@ -22,7 +21,6 @@ public class WatADriver extends Robot{
         int choice = keyboard.nextInt();
 
         setModeOfOperation(choice);
-
     }
 
     @Override
@@ -49,7 +47,6 @@ public class WatADriver extends Robot{
                 System.out.println("WatADriver does not support the operation.");
         }
     }
-
 
     private void driveACar() {
         System.out.println("Feeding GPS location .........");
