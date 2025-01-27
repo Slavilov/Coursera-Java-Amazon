@@ -3,13 +3,10 @@ import java.util.Scanner;
 public class SideKick extends Robot implements KungFuSkills{
 
     Scanner keyboard;
-
-    /** default constructor **/
     public SideKick() {
         keyboard = new Scanner(System.in);
     }
 
-    // method to set choice
     @Override
     public void setChoice() {
         System.out.println("***** SideKick Menu *****");
@@ -23,8 +20,7 @@ public class SideKick extends Robot implements KungFuSkills{
 
         setModeOfOperation(choice);
     }
-
-    // method to take action
+    
     @Override
     public void takeAction() {
         switch (getModeOfOperation()) {
@@ -49,8 +45,6 @@ public class SideKick extends Robot implements KungFuSkills{
         }
     }
 
-
-    // method to clean
     private void cleanHouse() {
         System.out.println("Get the vacuum cleaner.....");
         System.out.println("Put the dust bag in vacuum.....");
@@ -62,7 +56,6 @@ public class SideKick extends Robot implements KungFuSkills{
         System.out.println("Go back to Toni.....");
     }
 
-    // method to cook
     private void cookFood() {
         System.out.println("Move to the kitchen...........");
         System.out.println("Get the vegetables...........");
@@ -89,7 +82,4 @@ public class SideKick extends Robot implements KungFuSkills{
         System.out.println("Execute the movements....");
         System.out.println("Get in a defensive position...");
     }
-
-
-
 }
