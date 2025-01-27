@@ -47,13 +47,6 @@ public class Main {
                     }
 
 
-                    /** TODO 7: Check if the "SideKick" class has implemented the
-                     *          "KungFuSkills" interface which you created in
-                     *          TODO 5. If it has implemented it, then call the
-                     *          method "kungFuProtection".
-                     **/
-
-
                     break;
 
                 case 2:
