@@ -2,25 +2,16 @@ import java.util.Scanner;
 
 public class SideKick extends Robot {
     Scanner keyboard;
-
-    /** mode of operation  **/
-
-
-    /** charge of battery  **/
-
-
+    
     /** TODO 9: Make this class a child class of
      *          the Robot class by using
      *          "extends Robot" after the
      *          "class SideKick" above.
      **/
-
-    /** default constructor **/
     public SideKick() {
 
     }
 
-    // method to set choice
     public void setChoice() {
         System.out.println("***** SideKick Menu *****");
         System.out.println("1. Cleaning");
@@ -35,10 +26,8 @@ public class SideKick extends Robot {
          *           to use the setter method
          */
         setModeOfOperation(choice);
-
     }
 
-    // method to take action
     public void takeAction() {
         /** TODO 11: Replace the direct use of
          *           the property "modeOfOperation"
@@ -64,8 +53,6 @@ public class SideKick extends Robot {
         }
     }
 
-
-    // method to clean
     private void cleanHouse() {
         System.out.println("Get the vacuum cleaner.....");
         System.out.println("Put the dust bag in vacuum.....");
@@ -77,7 +64,6 @@ public class SideKick extends Robot {
         System.out.println("Go back to Toni.....");
     }
 
-    // method to cook
     private void cookFood() {
         System.out.println("Move to the kitchen...........");
         System.out.println("Get the vegetables...........");
