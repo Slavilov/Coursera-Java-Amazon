@@ -1,15 +1,8 @@
 abstract public class Animal implements Eat {
 
-    // property representing name of the animal
     private String nameOfAnimal;
-
-    // property representing weight
     private int weight;
-
-    // property representing the height
     private int height;
-
-    // property representing the age
     private int age;
 
     public Animal() {
