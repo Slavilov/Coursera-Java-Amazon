@@ -1,7 +1,6 @@
 class Car extends Vehicle{
     int seatPosition;
 
-    // Parameterized constructor
     public Car(String make, String model, String color) {
         super(make, model, color);
         this.seatPosition = 0;
